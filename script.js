@@ -7,7 +7,7 @@ let prevText = h2.innerText;
 img.addEventListener("mouseover", () => {
   img.src = "https://cdn.pixabay.com/photo/2018/05/12/03/42/eiffle-tower-3392363_1280.jpg";
   img.style.transition = "5s ease";
-  h2.innerText = "paris";
+  h2.innerText = "Paris";
 });
 
 img.addEventListener("mouseleave", () => {
