@@ -5,13 +5,13 @@ let prevSrc = img.src;
 let prevText = h2.innerText;
 
 img.addEventListener("mouseover", () => {
-  img.src = "../Asset/image/2025-porsche-911-gt3-104-67127826cc9ba.avif";
+  img.src = "https://cdn.pixabay.com/photo/2018/05/12/03/42/eiffle-tower-3392363_1280.jpg";
   img.style.transition = "5s ease";
-  h2.innerText = "Porsche";
+  h2.innerText = "paris";
 });
 
 img.addEventListener("mouseleave", () => {
-  img.src="../Asset/image/gwagon.jpg";
+  img.src="https://cdn.pixabay.com/photo/2014/11/13/23/34/palace-530055_1280.jpg";
   img.style.transition = "5s ease";
-  h2.innerText = "Gwagon";
+  h2.innerText = "London";
 });
