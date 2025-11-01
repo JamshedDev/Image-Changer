@@ -14,8 +14,8 @@ h1{
     flex-direction: column;
 }
 .image_container img{
-    width: 50%;
-    height: 600px;
+    width: 80%;
+    height: 250px;
     border: 2px solid white;
     border-radius: 15px;
 }
