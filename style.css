@@ -1,29 +1,83 @@
-body{
+body {
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    /* justify-content: center; */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.image_container{
+
+/* Image Container */
+.image_container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
 }
-.image_container img{
+
+.image_container img {
     width: 80%;
-    height: 250px;
+    max-width: 800px;
+    height: auto;
     border: 2px solid white;
     border-radius: 15px;
+    transition: all 0.5s ease;
 }
-.image_container h2{
+
+.image_container h2 {
     border: 2px solid whitesmoke;
     background-color: navy;
     font-size: 30px;
     margin-top: 30px;
     padding: 10px 30px;
     border-radius: 10px;
+}
+
+/* 🔹 Responsive Styles */
+
+/* For large desktops (1200px and above) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+    .image_container img {
+        width: 50%;
+        max-width: 1000px;
+    }
+    .image_container h2 {
+        font-size: 35px;
+    }
+}
+
+/* For tablets (768px–1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+    .image_container img {
+        width: 70%;
+        height: auto;
+    }
+    .image_container h2 {
+        font-size: 28px;
+    }
+}
+
+/* For mobile devices (below 768px) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+    .image_container img {
+        width: 90%;
+        height: auto;
+    }
+    .image_container h2 {
+        font-size: 22px;
+        padding: 8px 20px;
+    }
 }
