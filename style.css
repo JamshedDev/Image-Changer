@@ -42,10 +42,10 @@ h1 {
 /* For large desktops (1200px and above) */
 @media (min-width: 1200px) {
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .image_container img {
-        width: 50%;
+        width: 60%;
         max-width: 1000px;
     }
     .image_container h2 {
@@ -63,7 +63,7 @@ h1 {
         height: auto;
     }
     .image_container h2 {
-        font-size: 28px;
+        font-size: 15px;
     }
 }
 
@@ -73,11 +73,11 @@ h1 {
         font-size: 35px;
     }
     .image_container img {
-        width: 90%;
-        height: auto;
+        width: 100%;
+        height: 150px;
     }
     .image_container h2 {
         font-size: 22px;
-        padding: 8px 20px;
+        padding: 8px 10px;
     }
 }
