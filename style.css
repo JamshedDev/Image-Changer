@@ -5,7 +5,12 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+sub{
+    font-weight: 500;
+    font-family: cursive;
+    color: lightseagreen;
+    font-size: 20px;
+}
 h1 {
     font-size: 50px;
 }

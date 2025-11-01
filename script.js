@@ -14,4 +14,6 @@ img.addEventListener("mouseleave", () => {
   img.src="https://cdn.pixabay.com/photo/2014/11/13/23/34/palace-530055_1280.jpg";
   img.style.transition = "5s ease";
   h2.innerText = "London";
-});
+})
+
+
